@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<!-- Mapitso Nyapholi-->
+<!-- 2021327412-->
+<!-- Website Project-->
+<!-- Recommendations.html-->
+
+<html lang = "en">
+
+	<head>
+		<meta charset = "utf-8">
+		<title> Recommendations</title>
+		<link rel = "stylesheet" href = "Styles/normalize.css">
+		<link rel ="stylesheet" href = "Styles/main.css">
+	</head>	
+	
+	<body>
+		<div id  = "container">
+		<header>
+			<h1>Guide To RA</h1>
+			<img src = "images/logo.png" height = "80px" width = "80px" alt = "Guide To RA">
+		</header>
+		
+		<nav>
+		<p>
+			<a href = "index.html">Home</a>
+			<a href = "AboutTheWebsite.html">About the website</a>
+			<a href = "AboutRA.html">About RA</a>
+			<a href = "Advice.html">Advice</a>
+			<a href = "FactsAndFigures.html">Facts And Figures</a>
+			<a href = "FAQs.html">FAQs<a>
+			<a class = "current">Recommendations</a>
+			<a href = "Equipment.html">Equipment</a>
+		</p>
+		</nav>
+	
+		<main>
+		
+			<h2>Recommendations</h2>
+			It is important to know what foods are needed for the different types of symptoms.<br>
+			Fill in the form below to receive more of a like recommended diet.
+			<br>
+			
+			<!--Specification:form -->
+			<form method = "get" action = "thankyou.html">
+				<p>
+					<label>
+						Name:<input type = "text" id = "name" autofocus required>
+					</label>
+				</p>
+				
+				<p>
+					<label>
+						Surname:<input type = "text" id = "surname" required>
+					</label>
+				</p>
+				<p>
+					Gender:<br>
+					<input type = "radio" name = "gender" id = "gender1" value = "male" checked>
+					<label for = "gender1">Male</label>
+					<br>
+					<input type = "radio" name = "gender" id = "gender2" value = "female">
+					<label for = "gender2">Female</label>
+				</p>
+				<p>
+					<label for="email">Email address:</label>
+					<input type="email" id="email" required> 
+				</p>
+				<p>
+					Date Of Birth:
+					<input type="date" id="datetime" pattern = "[01]?\d\/[0-3]\d\/\d{4}">
+				</p>
+				
+				<p>
+					<fieldset>
+						<legend>Symptoms:</legend> 
+							<input type="checkbox" name="symptom" id="symptom1" value="fatigue">
+							<label for="symptom1">Fatigue</label> 
+							<br>
+							<input type="checkbox" name="symptom" id="symptom2" value="inflammation">
+							<label for="symptom2">Regular inflammation</label>
+							<br>
+							<input type="checkbox" name="symptom" id="symptom3" value="swelling">
+							<label for="symptom3">Swelling</label>
+							<br>
+							<input type="checkbox" name="symptom" id="symptom4" value="pain">
+							<label for="symptom4">Body pain</label>
+					</fieldset>
+				</p>
+				
+				<br>
+				<input type = "submit" value = "Submit Form">
+				<input type = "clear" value = "Clear">
+				<br>
+				<br>
+			</form>
+		</main>
+	
+		<footer>
+			Disclaimer: This website is for school purposes.<br>
+		Created by:<br>
+		&copy; <a href = "../myindex.html">MN Nyapholi(2021327412)</a> <br>
+		Last updated: October 2023
+		</footer>
+		</div>
+	</body>
+</html>
